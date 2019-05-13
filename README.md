@@ -21,11 +21,16 @@ This Project modifies the source code of SPIM simulator so that it can handle pi
 
 * How to run?
 - Download SPIM using:
+
+```
 $ wget http://www.cs.wisc.edu/~larus/SPIM/spim.tar.gz
 
+```
 - Replace the run.c in CPU directory with my run.c
 
 - The current code of mine only supports input as an assembly code in MIPS. To run it please use the following command:
 
+```
 $ ./spim -file [filename]
 
+```
